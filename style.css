@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+body {
+    background: azure;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Header {
+    height: 300px;
+    display: flex;
+}
+
+.Header-Logo {
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    padding: 20px 20px;
+}
+
+
+
+.Header-Logo p {
+    color: #088884;
+}
+
+/*
+
+.Header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.Header-buttons a {
+    width: 150px;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 700;
+    color: black;
+}
+*/
+
+.Header-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.Header-UL{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.Header-UL-LI{
+    list-style: none;
+}
+
+.Header-UL-LI-A{
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/*
+.Form {
+
+    width: 90px;
+    display: flex;
+
+    flex-direction: row;
+}
+*/
+
+.Form{
+    margin-top: 0.5em;
+}
+
+form{
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
+input[type="search"]{
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+  
+input[type="search"]::placeholder {
+    color: #bbb;
+}
+
